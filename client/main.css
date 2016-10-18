@@ -1,0 +1,190 @@
+body {
+	background: #E6E6FA;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+  color: whitesmoke;
+  background: steelblue;
+  padding: 12px 0;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.new-building {
+  border: 1px solid lightsteelblue;
+  color: steelblue;
+  background: snow;
+  /*width: 45%;*/
+}
+
+#stripe {
+  margin-top: 0;
+  text-align: center;
+	height: 30px;
+	background: white;
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-transform: uppercase;
+  border: 1px solid steelblue;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all, 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.input-group-addon {
+  margin-left: 2px;
+  text-align: left;
+  width: 300px;
+  color: steelblue;
+  height: 27px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.input-group-addon input {
+  height: 27px;
+  text-indent: 2px;
+}
+
+select {
+  height: 27px;
+  width: 175px;
+}
+
+input {
+  width: 175px;
+}
+
+caption {
+	width: 475px;
+	text-align: left;
+  padding-left: 2px;
+	font-weight: bold;
+	font-size: 150%;
+  background: #4C4C4C;
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.section-start {
+  font-size: 125%;
+}
+
+.x-minus-one {
+  width: 100px;
+}
+
+.x-three {
+  width: 141px;
+}
+
+.x-minus-two {
+  width: 66px;
+}
+
+.frontpiece {
+  width: 34px;
+  color: black;
+  font-weight: normal;
+}
+
+.endpiece {
+  width: 75px;
+  color: black;
+  font-weight: normal;
+}
+
+table {
+  width: 475px;
+  border-collapse: collapse;
+  border: 1px solid #4C4C4C;
+}
+
+th, td {
+    border: 1px dotted #707070;
+}
+th {
+    background: lightsteelblue;
+    padding: 5px;
+}
+thead th {
+    background: steelblue;
+    color: ghostwhite;
+    text-align: center;
+}
+caption {
+    background: #4C4C4C;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+th[scope=col] {
+    border-bottom: 2px solid #707070;
+}
+th[scope=row] {
+    border-right: 2px solid #707070;
+    text-align: left;
+}
+td {
+    padding: 2px;
+    text-align: center;
+}
+tfoot th {
+    background: #BBBBD1;
+}
+tfoot td {
+    background: #CFCFDF;
+    color: #8D1919;
+}
+.row-odd {
+    background: #DBDBDB;
+}
+.row-odd th {
+    background: #A2D0A2;
+}
+.cell-number {
+    text-align: right;
+}
+
+td.highlight {
+    background: #FF944D;
+}
+
+th.highlight {
+    background: #B26836;
+}
+
+.send {
+	width: 475px;
+}
